@@ -4,7 +4,6 @@ allprojects {
         mavenCentral()
         maven {
                       url "https://seeso.jfrog.io/artifactory/visualcamp-seeso-android-gradle-release/"
-
         }
     }
 }
@@ -20,3 +19,4 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+
